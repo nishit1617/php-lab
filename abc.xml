@@ -1,0 +1,30 @@
+<? xml version='1.0'?>
+    <?xml-stylesheet type="text/css" href="4a.css" ?>
+        <student>
+student info1:
+<info>
+<name>ishika</name>
+<college>nitkkr</college>
+<rollno>11813003</rollno>
+<branch>information technology</branch>
+<yoj>2018</yoj>
+<email>abc@gmail.com</email>
+</info>
+student info2:
+<info>
+<name>sahil</name>
+<college>nitkkr</college>
+<rollno>1181303373</rollno>
+<branch>12th</branch>
+<yoj>2018</yoj>
+<email>xbc@gmail.com</email>
+</info>
+<info>
+<name>shubham</name>
+<college>nitkkr</college>
+<rollno>11813033733</rollno>
+<branch>9th</branch>
+<yoj>2018</yoj>
+<email>pqr@gmail.com</email>
+</info>
+</student>
