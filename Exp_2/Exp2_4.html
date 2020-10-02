@@ -1,0 +1,50 @@
+<!-- Display XML element in HTML element using Data Island -->
+
+<html> 
+    <head> 
+        <title>XML Data Island</title> 
+    </head> 
+    <body>
+        <!-- Create a Data Island using xml tag and give it some id -->
+        <xml id="xmldb"> 
+            <db> 
+                <member> 
+                    <name>Dikshant Jagota<name> 
+                    <sex>male</sex> 
+                </member> 
+            
+                <member> 
+                    <name>Aayush Gupta</name> 
+                    <sex>male</sex> 
+                </member> 
+     <member> 
+                    <name>Binod<name> 
+                    <sex>male</sex> 
+                </member> 
+            
+                <member> 
+                    <name>Jasleen Royal</name> 
+                    <sex>female</sex> 
+                </member> 
+		     <member> 
+                    <name>Tejaswi Prakash<name> 
+                    <sex>female</sex> 
+                </member> 
+            
+                <member> 
+                    <name>Arijit Singh</name> 
+                    <sex>male</sex> 
+                </member> 
+            </db> 
+
+        </xml> 
+
+        <!-- Extracted data here using the <SPAN> tag. datasrc is used to specify the ID of the data island 
+        you want to extract data from. datafld is used to specify the XML tag you want to extract the data 
+        from (here, name in first <SPAN> and sex in second <SPAN>). -->
+        
+        <span datasrc="#xmldb" datafld="name" color="blue"></span> 
+        <br />
+        <span datasrc="#xmldb" datafld="sex" color="orange"></span><br />
+    </body> 
+</html>
